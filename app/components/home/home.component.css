@@ -1,0 +1,72 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#acc0c5 ;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  border-style: solid;
+  padding: 1%;
+  border-radius: 7%;
+}
+
+.profile-img{
+  border-radius: 62%;
+    width: 12%;
+}
+
+
+.text {
+  text-align: center; 
+  background-color: #446d79;
+  color: #fff; 
+  font-family: "maropeMedium";
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #145ea8;
+  transition: background-color 0.3s ease;
+}
+.image-gallery {
+  display: flex;         
+  overflow-x: auto;    
+            
+     
+}
+
+.image-item {
+        
+  max-width: 150px;     
+   
+}
+
+

@@ -1,0 +1,71 @@
+<section id="home" class="hero">
+  <div class="hero-content">
+    <img src="../../../assets/avatar.svg" class="profile-img" alt="profile image">
+    <h3>Hi, I'm Shivam Anand</h3>
+    <h5>Software Developer  (MEAN)</h5>
+    <p></p>
+    <h5 style="text-decoration: underline;">Key Skills</h5>
+    <p class="text">Front-End</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of frontEnd" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p  class="text">Back-End</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of backEnd" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p  class="text">Database</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of db" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p></p>
+    <p  class="text">Testing</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of testing" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p></p>
+    <p  class="text">DevOps</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of devops" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p></p>
+    <p  class="text">Tools</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of tools" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p></p>
+    <p  class="text">Methodologies</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of method" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+    <p  class="text">Version Control</p>
+    <div class="image-gallery">
+      <div *ngFor="let image of version" class="image-item">
+        {{image.tech}}
+        <img [src]="image.imgUrl" [ngStyle]="{'width': image.width}">
+      </div>
+    </div>
+
+  </div>
+  
+</section>

@@ -1,0 +1,15 @@
+
+<section id="experience" class="hero">
+  <div class="timeline">
+    <div *ngFor="let experience of experiences" class="timeline-item">
+      <div class="timeline-content">
+        <h3>{{ experience.title }}</h3>
+        <h4>{{ experience.company }}</h4>
+        <p>{{ experience.date }}</p>
+
+        <p *ngFor="let desc of experience.description" style="text-align: left;"> <li>{{ desc}}</li></p>
+      </div>
+    </div>
+  </div>
+  
+</section>
