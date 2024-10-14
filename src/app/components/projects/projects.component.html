@@ -1,0 +1,17 @@
+
+  
+
+  
+
+  <section id="project" class="hero">
+    <div class="timeline">
+      <div *ngFor="let project of projects" class="timeline-item">
+        <div class="timeline-content">
+          <h3>{{ project.title }}</h3>
+  
+          <p *ngFor="let desc of project.description" style="text-align: left;"> <li>{{ desc}}</li></p>
+        </div>
+      </div>
+    </div>
+    
+  </section>

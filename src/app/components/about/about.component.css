@@ -1,0 +1,30 @@
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 19%;
+    background-color:#acc0c5 ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: x-large;
+    font-family: "maropeMedium";
+  
+  }
+  
+  .hero-content {
+    border-style: solid;
+    padding: 1%;
+    border-radius: 7%;
+    width: 35%;
+    margin-left: 35%;
+    font-size: x-large;
+    font-family: "maropeMedium";
+  }
+  
+  

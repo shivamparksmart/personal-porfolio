@@ -1,0 +1,61 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+body { margin: 0; font-family: 'maropeMedium'; color: white; background-color: #212529;}
+body.light-mode {
+    background-color: #ffffff; /* Dark mode background color */
+    color: #000000; /* Dark mode text color */
+  }
+@font-face {
+    font-family: 'maropeMedium';
+    src: url('./assets/Manrope-Medium.ttf');
+  }
+@font-face {
+    font-family: 'maropeBold';
+    src: url('./assets/Manrope-Bold.ttf');
+}
+@font-face {
+    font-family: 'maropeLight';
+    src: url('./assets/Manrope-Light.ttf');
+}
+@font-face {
+    font-family: 'maropeExtraBold';
+    src: url('./assets/Manrope-ExtraBold.ttf');
+}
+  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    color: #1d1e22;
+}
+
+/* Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Smooth hover transitions */
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+section {
+    background-color:#acc0c5 ;
+}

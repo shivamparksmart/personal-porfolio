@@ -1,0 +1,41 @@
+
+.sidebar {
+    width: 250px;
+    height: 100vh; 
+    background-color: #2d505b;
+    color: #fff; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    padding: 20px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); 
+   
+  }
+  
+  .sidebar .logo {
+    font-size: 1rem; 
+    margin-bottom: 20px;
+    font-family: "maropeMedium";
+  }
+  
+  .sidebar nav {
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .sidebar nav a {
+    color: #fff; 
+    font-family: "maropeMedium";
+    text-decoration: none;
+    padding: 10px 15px; 
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #2ca0c3; 
+  }
+  
+  .active {
+    background-color: #2ca0c3; 
+  }
+  
